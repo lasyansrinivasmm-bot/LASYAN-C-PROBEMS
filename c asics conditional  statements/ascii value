@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <ctype.h> 
+
+int main() {
+    char ch = 'G'; 
+
+    printf("Input: %c\n", ch);
+    if (isupper(ch)) {
+        printf("Output: Uppercase letter\n");
+        printf("Explanation: ASCII range A-Z (65 to 90) -> uppercase. The character '%c' has an ASCII value of %d, which falls within this range.\n", ch, ch);
+    } else {
+      
+        printf("Output: Not an uppercase letter (or not an alphabet).\n");
+    }
+
+    return 0;
+}
