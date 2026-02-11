@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num, limit, i;
+    int sum = 0;
+
+    printf("ENTER THE NUMBER: ");
+    scanf("%d", &num);
+
+    printf("ENTER THE LIMIT: ");
+    scanf("%d", &limit);
+
+    for(i = 1; i <= limit; i++) {
+        if(i % num == 0) {
+            sum = sum + i;
+        }
+    }
+
+    printf("SUM OF MULTIPLES = %d\n", sum);
+
+    return 0;
+}
