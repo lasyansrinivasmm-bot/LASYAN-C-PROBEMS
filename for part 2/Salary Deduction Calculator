@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int salary;
+    int absentdays;
+    int fsalary=0;
+   
+    scanf("%d",&salary);
+    for ( int i=0;i<salary;i++){
+        scanf("%d",&absentdays);
+     
+    fsalary=salary- absentdays*100;
+    
+     printf("fsalarty=%d",fsalary);
+    }
+     return 0;
+}
