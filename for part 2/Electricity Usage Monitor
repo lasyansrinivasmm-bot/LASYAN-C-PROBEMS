@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n,N;
+    int sum=0;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        scanf("%d",&N);
+        sum+=N;
+    }
+   printf("total units=%d",sum);
+    return 0;
+}
