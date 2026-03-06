@@ -1,0 +1,16 @@
+include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int n,N,m;
+    int sum=0;
+    scanf("%d",&n);
+    scanf("%d",&N);
+    for (int i=0;i<n;i++){
+        scanf("%d",&m);
+        sum+=m;
+        int Rb=n-sum;
+        printf("remainig battery=%d",Rb);
+    }
+   
+    return 0;
+}
