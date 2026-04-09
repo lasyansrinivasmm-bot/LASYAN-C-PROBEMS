@@ -1,0 +1,18 @@
+include <stdio.h>
+int main() {
+    osd
+    int sum=0,osd=0;
+    scanf("%d",&n);
+    for (int i=0;i<n;i++){
+        scanf("%d",&N);
+        sum+=N;
+
+    if(N>1000){
+        osd++;
+    }
+   
+    }
+     printf("%d\n%d",sum,osd);
+    
+    return 0;
+}
