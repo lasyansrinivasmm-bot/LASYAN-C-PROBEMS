@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    int i, length = 0;
+
+    // Read the string
+    scanf("%s", str);
+
+    // Count characters
+    for (i = 0; str[i] != '\0'; i++) {
+        length++;
+    }
+
+    // Print length
+    printf("%d", length);
+
+    return 0;
+}
